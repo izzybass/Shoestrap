@@ -25,3 +25,5 @@ for(var i = 0; i<num.length; i++){
 }
 }
 console.log(string);
+
+var array = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];

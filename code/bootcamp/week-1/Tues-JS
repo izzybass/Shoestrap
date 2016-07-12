@@ -1,0 +1,43 @@
+1.
+var calculateAge = function(birthYear, currentYear) {
+	return "You are either " + (currentYear - birthYear - 1) + " or " + (currentYear - birthYear);
+}
+calculateAge(1981, 2016);
+
+2.
+var isPrime = function(x) {
+for(var i = 2; i<x; i+=1) {if(x % i===0) {
+	return "false"
+} else {
+	return "true"
+}
+}
+}
+isPrime(7);
+
+// 3.
+var average = function(array) { 
+
+	var sum = 0;
+
+	for(var i =0; i<array.length; i=i+1) {
+		sum=array[i]+sum
+		
+	}
+	console.log(sum/array.length)
+}
+average([2,4,6,8,10]);
+
+// 4.
+var number = function(array, number) {
+	for(var i =0; i<array.length; i=i+1) {
+		if(array[i] === number)
+			{console.log("true");
+	}else{
+		console.log("false");
+	}
+	}
+}
+number([2,4,6,8],8);
+
+// 5.
